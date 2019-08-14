@@ -1,2 +1,2 @@
 # datapacks
-A collection of datapacks that I made
+A collection of Minecraft datapacks made by me
