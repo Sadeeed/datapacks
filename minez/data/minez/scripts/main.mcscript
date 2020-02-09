@@ -1,0 +1,31 @@
+
+#file: ./main
+// here goes your main content
+// executes 20 times a second
+
+run function infection{
+    /advancement revoke @p from minez:root
+    run function chance{
+            # if you want a number between 0 and 15, set #maxrand to 15+1, or 16
+            /scoreboard players set #maxrand mcprng 100
+
+            # now call this to generate a new random number
+            /function minez:nextrand
+
+            if (score "#randval" mcprng == 3) {
+                /advancement grant @p from minez:infected
+                /tellraw @p {"text":"You're infected","color":"red"}
+                /execute as @p run particle minecraft:ambient_entity_effect ~ ~ ~ 0.25 0.75 0.25 0 100
+                /function minez:hurt
+            }
+    }
+
+}
+
+#file: ./hurt
+/effect give @p instant_damage 1 1 true
+/effect give @p instant_health 1 1 true
+/effect give @p minecraft:nausea 8 1 true
+if (@p[advancements={minez:infected=true}]) {
+    /schedule function minez:hurt 15s   
+}

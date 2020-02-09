@@ -1,0 +1,45 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "Zombie": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:zombie"
+                    }
+                }
+            }
+        },
+        "ZombiePigman": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:zombie_pigman"
+                    }
+                }
+            }
+        },
+        "ZombieVillager": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:zombie_villager"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Zombie",
+            "ZombiePigman",
+            "ZombieVillager"
+        ]
+    ],
+    "rewards": {
+        "function": "minez:infection"
+    }
+}
