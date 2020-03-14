@@ -1,0 +1,20 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "Honey": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:honey_bottle",
+                    "count": {
+                        "min": 1,
+                        "max": 1
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cure"
+    }
+}
