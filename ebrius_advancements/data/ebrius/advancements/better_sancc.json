@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Die 10 times"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "\"Better than Sanc\""
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

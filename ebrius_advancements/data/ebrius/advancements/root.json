@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:grass"
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "description": {
+            "text": ""
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:41817}"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Welcome to Ebrius!"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    }
+}

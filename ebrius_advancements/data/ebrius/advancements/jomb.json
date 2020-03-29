@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "diab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:diamond_block"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Get a stack of Diamond Blocks"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Rich like a Jomb!"
+        }
+    },
+    "requirements": [
+        [
+            "diab"
+        ]
+    ],
+    "rewards": {
+        "experience": 45
+    },
+    "parent": "ebrius:root"
+}

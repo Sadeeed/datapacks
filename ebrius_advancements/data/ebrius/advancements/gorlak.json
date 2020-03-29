@@ -1,0 +1,48 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "Gorlak": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}",
+                    "type": "minecraft:villager"
+                }
+            }
+        },
+        "gorlak": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}",
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Kill a villager named Gorlak"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Who Killed Gorlak?"
+        }
+    },
+    "requirements": [
+        [
+            "Gorlak",
+            "gorlak"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "shell": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:turtle_helmet",
+                        "nbt": "{Enchantments:[{id:respiration,lvl:3}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Enchant turtle shell with respiration 3"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:turtle_helmet",
+            "nbt": "{Enchantments:[{id:respiration,lvl:3}]}"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Mariana's trench"
+        }
+    },
+    "requirements": [
+        [
+            "shell"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}
