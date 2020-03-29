@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Craft a diamond hoe"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "\"Ya'll a bunch of hoes\" ~Hades"
+        }
+    },
+    "requirements": [
+        [
+            "hoe"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

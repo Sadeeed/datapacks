@@ -31,8 +31,6 @@ if (@p[advancements={minez:infected=true}]) {
 }
 
 #file: ./cure
-if (@p[advancements={minez:cure=true}]) {
-    /advancement revoke @p from minez:cure
-    /advancement revoke @p from minez:infected
-    /tellraw @p {"text":"You're now cured","color":"green"}
-}
+/advancement revoke @p from minez:infected
+/tellraw @p {"text":"You're now cured","color":"green"}
+/advancement revoke @p from minez:cure

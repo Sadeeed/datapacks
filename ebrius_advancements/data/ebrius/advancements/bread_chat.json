@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:bread"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Craft a stack of Bread"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "#bread_chat"
+        }
+    },
+    "requirements": [
+        [
+            "bread"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

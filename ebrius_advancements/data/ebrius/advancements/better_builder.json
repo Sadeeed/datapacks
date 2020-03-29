@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Place 1000 dirt blocks"
+        },
+        "frame": "goal",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Better builder than Jeff"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

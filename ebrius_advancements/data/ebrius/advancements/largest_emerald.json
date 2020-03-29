@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Trade 10 times"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "\"World's Largest Emerald\""
+        }
+    },
+    "requirements": [
+        [
+            "imp"
+        ]
+    ],
+    "rewards": {
+        "experience": 30
+    },
+    "parent": "ebrius:root"
+}

@@ -1,0 +1,70 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rabbit_stew"
+                }
+            }
+        },
+        "mushroom": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:mushroom_stew"
+                }
+            }
+        },
+        "beet": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:beetroot_soup"
+                }
+            }
+        },
+        "susp": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew"
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Eat one of each soup"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:bowl"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Soup Boi"
+        }
+    },
+    "requirements": [
+        [
+            "rabbit"
+        ],
+        [
+            "mushroom"
+        ],
+        [
+            "beet"
+        ],
+        [
+            "susp"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

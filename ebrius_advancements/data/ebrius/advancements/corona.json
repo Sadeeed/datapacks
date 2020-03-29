@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "bat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bat"
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Kill a bat"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "We did it bois COVID-19 is no more"
+        }
+    },
+    "requirements": [
+        [
+            "bat"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "ebrius:root"
+}

@@ -1,0 +1,111 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:oak_log"
+                    }
+                ]
+            }
+        },
+        "spruce": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:spruce_log"
+                    }
+                ]
+            }
+        },
+        "birch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:birch_log"
+                    }
+                ]
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:jungle_log"
+                    }
+                ]
+            }
+        },
+        "accacia": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "max": 64,
+                            "min": 64
+                        },
+                        "item": "minecraft:acacia_log"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Get a stack of logs from every wood type"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Wood Monopoly"
+        }
+    },
+    "requirements": [
+        [
+            "oak"
+        ],
+        [
+            "spruce"
+        ],
+        [
+            "birch"
+        ],
+        [
+            "jungle"
+        ],
+        [
+            "accacia"
+        ]
+    ],
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "ebrius:root"
+}

@@ -1,0 +1,298 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "cow": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:cow"
+                },
+                "parent": {
+                    "type": "minecraft:cow"
+                },
+                "partner": {
+                    "type": "minecraft:cow"
+                }
+            }
+        },
+        "sheep": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:sheep"
+                },
+                "parent": {
+                    "type": "minecraft:sheep"
+                },
+                "partner": {
+                    "type": "minecraft:sheep"
+                }
+            }
+        },
+        "pig": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:pig"
+                },
+                "parent": {
+                    "type": "minecraft:pig"
+                },
+                "partner": {
+                    "type": "minecraft:pig"
+                }
+            }
+        },
+        "horse": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:horse"
+                },
+                "parent": {
+                    "type": "minecraft:horse"
+                },
+                "partner": {
+                    "type": "minecraft:horse"
+                }
+            }
+        },
+        "donkey": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:donkey"
+                },
+                "parent": {
+                    "type": "minecraft:donkey"
+                },
+                "partner": {
+                    "type": "minecraft:donkey"
+                }
+            }
+        },
+        "panda": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "llama": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:llama"
+                },
+                "parent": {
+                    "type": "minecraft:llama"
+                },
+                "partner": {
+                    "type": "minecraft:llama"
+                }
+            }
+        },
+        "wolf": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:wolf"
+                },
+                "parent": {
+                    "type": "minecraft:wolf"
+                },
+                "partner": {
+                    "type": "minecraft:wolf"
+                }
+            }
+        },
+        "cat": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:cat"
+                },
+                "parent": {
+                    "type": "minecraft:cat"
+                },
+                "partner": {
+                    "type": "minecraft:cat"
+                }
+            }
+        },
+        "ocelot": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:ocelot"
+                },
+                "parent": {
+                    "type": "minecraft:ocelot"
+                },
+                "partner": {
+                    "type": "minecraft:ocelot"
+                }
+            }
+        },
+        "turtle": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:turtle"
+                },
+                "parent": {
+                    "type": "minecraft:turtle"
+                },
+                "partner": {
+                    "type": "minecraft:turtle"
+                }
+            }
+        },
+        "fox": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:fox"
+                },
+                "parent": {
+                    "type": "minecraft:fox"
+                },
+                "partner": {
+                    "type": "minecraft:fox"
+                }
+            }
+        },
+        "rabbit": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:rabbit"
+                },
+                "parent": {
+                    "type": "minecraft:rabbit"
+                },
+                "partner": {
+                    "type": "minecraft:rabbit"
+                }
+            }
+        },
+        "mooshroom": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:mooshroom"
+                },
+                "parent": {
+                    "type": "minecraft:mooshroom"
+                },
+                "partner": {
+                    "type": "minecraft:mooshroom"
+                }
+            }
+        },
+        "bee": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:bee"
+                },
+                "parent": {
+                    "type": "minecraft:bee"
+                },
+                "partner": {
+                    "type": "minecraft:bee"
+                }
+            }
+        },
+        "chicken": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:chicken"
+                },
+                "parent": {
+                    "type": "minecraft:chicken"
+                },
+                "partner": {
+                    "type": "minecraft:chicken"
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Gotta breed 'em all "
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "No don't do it! I'm a virgin"
+        }
+    },
+    "requirements": [
+        [
+            "cow"
+        ],
+        [
+            "sheep"
+        ],
+        [
+            "pig"
+        ],
+        [
+            "horse"
+        ],
+        [
+            "donkey"
+        ],
+        [
+            "panda"
+        ],
+        [
+            "llama"
+        ],
+        [
+            "cat"
+        ],
+        [
+            "wolf"
+        ],
+        [
+            "ocelot"
+        ],
+        [
+            "turtle"
+        ],
+        [
+            "fox"
+        ],
+        [
+            "rabbit"
+        ],
+        [
+            "mooshroom"
+        ],
+        [
+            "bee"
+        ],
+        [
+            "chicken"
+        ]
+    ],
+    "rewards": {
+        "experience": 35
+    },
+    "parent": "ebrius:root"
+}
