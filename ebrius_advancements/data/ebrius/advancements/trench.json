@@ -1,5 +1,20 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Mariana's trench"
+        },
+        "description": {
+            "text": "Enchant turtle shell with respiration 3"
+        },
+        "icon": {
+            "item": "minecraft:turtle_helmet",
+            "nbt": "{Enchantments:[{lvl:3s, id:\"minecraft:respiration\"}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "shell": {
             "trigger": "minecraft:inventory_changed",
@@ -7,26 +22,10 @@
                 "items": [
                     {
                         "item": "minecraft:turtle_helmet",
-                        "nbt": "{Enchantments:[{id:respiration,lvl:3}]}"
+                        "nbt": "{Enchantments:[{lvl:3s, id:\"minecraft:respiration\"}]}"
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Enchant turtle shell with respiration 3"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:turtle_helmet",
-            "nbt": "{Enchantments:[{id:respiration,lvl:3}]}"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Mariana's trench"
         }
     },
     "requirements": [

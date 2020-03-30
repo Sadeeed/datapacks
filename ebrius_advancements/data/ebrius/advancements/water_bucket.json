@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Always have a water bucket"
+        },
+        "description": {
+            "text": "Obtain a water bucket"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "watr": {
             "trigger": "minecraft:inventory_changed",
@@ -10,21 +24,6 @@
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Obtain a water bucket"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:water_bucket"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Always have a water bucket"
         }
     },
     "requirements": [

@@ -1,34 +1,33 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I live in the mines now!"
+        },
+        "description": {
+            "text": "Mine a stack of diamonds"
+        },
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "dore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
+                        "item": "minecraft:diamond_ore",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:diamond_ore"
+                            "min": 64,
+                            "max": 64
+                        }
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Mine a stack of diamonds"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:diamond_ore"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "I live in the mines now!"
         }
     },
     "requirements": [

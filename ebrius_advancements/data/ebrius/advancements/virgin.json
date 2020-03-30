@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "No don't do it! I'm a virgin"
+        },
+        "description": {
+            "text": "Gotta breed 'em all "
+        },
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "cow": {
             "trigger": "minecraft:bred_animals",
@@ -224,21 +238,6 @@
                     "type": "minecraft:chicken"
                 }
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Gotta breed 'em all "
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:wheat"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "No don't do it! I'm a virgin"
         }
     },
     "requirements": [

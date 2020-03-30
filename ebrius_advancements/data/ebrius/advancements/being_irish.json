@@ -1,34 +1,33 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Being Irish"
+        },
+        "description": {
+            "text": "Get a stack of baked potatoes"
+        },
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "irish": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
+                        "item": "minecraft:baked_potato",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:baked_potato"
+                            "min": 64,
+                            "max": 64
+                        }
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Get a stack of baked potatoes"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:baked_potato"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Being Irish"
         }
     },
     "requirements": [

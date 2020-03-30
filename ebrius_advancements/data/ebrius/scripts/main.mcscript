@@ -1,0 +1,28 @@
+
+#file: ./main
+// here goes your main content
+// executes 20 times a second
+/function ebrius:largest_emerald
+/function ebrius:sancc
+/function ebrius:buildr
+/function ebrius:afkboi
+
+#file: ./largest_emerald
+if (score @p traded >= 10) {
+    /advancement grant @p from ebrius:largest_emerald
+}
+
+#file: ./sancc
+if (score @p ded >= 10) {
+    /advancement grant @p from ebrius:better_sancc
+}
+
+#file: ./buildr
+if (score @p placedirt >= 1000) {
+    /advancement grant @p from ebrius:better_builder
+}
+
+#file: ./afkboi
+if (score @p time >= 5000) {
+    /advancement grant @p from ebrius:afk_boi
+}

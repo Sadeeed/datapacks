@@ -1,139 +1,138 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "\"Shop at Woolmart!\" ~Numz"
+        },
+        "description": {
+            "text": "Get a stack of each color of wool"
+        },
+        "icon": {
+            "item": "minecraft:blue_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "wool": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
+                        "item": "minecraft:red_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:red_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:lime_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:lime_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:pink_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:pink_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:gray_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:gray_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:cyan_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:cyan_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:blue_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:blue_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:white_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:white_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:brown_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:brown_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:green_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:green_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:black_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:black_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:orange_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:orange_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:yellow_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:yellow_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:purple_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:purple_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:magenta_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:magenta_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:light_blue_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:light_blue_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     },
                     {
+                        "item": "minecraft:light_gray_wool",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:light_gray_wool"
+                            "min": 64,
+                            "max": 64
+                        }
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Get a stack of each color of wool"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:blue_wool"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "\"Shop at Woolmart!\" ~Numz"
         }
     },
     "requirements": [

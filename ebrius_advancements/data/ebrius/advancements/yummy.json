@@ -1,34 +1,33 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "That’s some yummy cookies!"
+        },
+        "description": {
+            "text": "Craft 16 cookies"
+        },
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "yummy": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
+                        "item": "minecraft:cookie",
                         "count": {
-                            "max": 16,
-                            "min": 16
-                        },
-                        "item": "minecraft:cookie"
+                            "min": 16,
+                            "max": 16
+                        }
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Craft 16 cookies"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:cookie"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "That’s some yummy cookies!"
         }
     },
     "requirements": [

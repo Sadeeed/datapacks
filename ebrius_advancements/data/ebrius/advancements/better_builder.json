@@ -1,23 +1,22 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "criteria": {
-        "imp": {
-            "trigger": "minecraft:impossible"
-        }
-    },
     "display": {
-        "announce_to_chat": true,
+        "title": {
+            "text": "Better builder than Jeff"
+        },
         "description": {
             "text": "Place 1000 dirt blocks"
         },
-        "frame": "goal",
-        "hidden": false,
         "icon": {
             "item": "minecraft:dirt"
         },
+        "frame": "goal",
         "show_toast": true,
-        "title": {
-            "text": "Better builder than Jeff"
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

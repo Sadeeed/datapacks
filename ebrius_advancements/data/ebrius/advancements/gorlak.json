@@ -1,12 +1,26 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Who Killed Gorlak?"
+        },
+        "description": {
+            "text": "Kill a villager named Gorlak"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "Gorlak": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}",
-                    "type": "minecraft:villager"
+                    "type": "minecraft:villager",
+                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}"
                 }
             }
         },
@@ -14,25 +28,10 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}",
-                    "type": "minecraft:villager"
+                    "type": "minecraft:villager",
+                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}"
                 }
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Kill a villager named Gorlak"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:iron_sword"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Who Killed Gorlak?"
         }
     },
     "requirements": [

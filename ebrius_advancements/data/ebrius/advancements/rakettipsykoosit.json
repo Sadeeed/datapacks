@@ -1,34 +1,33 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Rakettipsykoosit"
+        },
+        "description": {
+            "text": "Craft a stack of Fireworks"
+        },
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "firework": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
+                        "item": "minecraft:firework_rocket",
                         "count": {
-                            "max": 64,
-                            "min": 64
-                        },
-                        "item": "minecraft:firework_rocket"
+                            "min": 64,
+                            "max": 64
+                        }
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Craft a stack of Fireworks"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:firework_rocket"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Rakettipsykoosit"
         }
     },
     "requirements": [

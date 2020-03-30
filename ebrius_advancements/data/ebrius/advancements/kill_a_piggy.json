@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Kill a Piggy"
+        },
+        "description": {
+            "text": "Kill a pig"
+        },
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "pig": {
             "trigger": "minecraft:player_killed_entity",
@@ -16,21 +30,6 @@
                     "type": "minecraft:zombie_pigman"
                 }
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Kill a pig"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:porkchop"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Kill a Piggy"
         }
     },
     "requirements": [

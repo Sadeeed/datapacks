@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "\"Ya'll a bunch of hoes\" ~Hades"
+        },
+        "description": {
+            "text": "Craft a diamond hoe"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "hoe": {
             "trigger": "minecraft:inventory_changed",
@@ -10,21 +24,6 @@
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Craft a diamond hoe"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:diamond_hoe"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "\"Ya'll a bunch of hoes\" ~Hades"
         }
     },
     "requirements": [

@@ -1,16 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "criteria": {
-        "sheep": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:sheep",
-                    "nbt": "{Color:0b}"
-                }
-            }
-        }
-    },
     "display": {
         "title": {
             "text": "We at Ebrius are not raquist"
@@ -25,6 +13,17 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
+    },
+    "criteria": {
+        "sheep": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:0b}"
+                }
+            }
+        }
     },
     "requirements": [
         [

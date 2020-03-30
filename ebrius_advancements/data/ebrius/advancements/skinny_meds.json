@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Medicines make me skinny"
+        },
+        "description": {
+            "text": "Make a cake"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "cake": {
             "trigger": "minecraft:inventory_changed",
@@ -10,21 +24,6 @@
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Make a cake"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:cake"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Medicines make me skinny"
         }
     },
     "requirements": [

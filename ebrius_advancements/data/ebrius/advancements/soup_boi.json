@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Soup Boi"
+        },
+        "description": {
+            "text": "Eat one of each soup"
+        },
+        "icon": {
+            "item": "minecraft:bowl"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "rabbit": {
             "trigger": "minecraft:consume_item",
@@ -32,21 +46,6 @@
                     "item": "minecraft:suspicious_stew"
                 }
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Eat one of each soup"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:bowl"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Soup Boi"
         }
     },
     "requirements": [

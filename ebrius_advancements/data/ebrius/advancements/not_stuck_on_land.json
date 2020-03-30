@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Atleast it's not stuck on land"
+        },
+        "description": {
+            "text": "Craft a boat"
+        },
+        "icon": {
+            "item": "minecraft:oak_boat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "oak": {
             "trigger": "minecraft:inventory_changed",
@@ -50,21 +64,6 @@
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Craft a boat"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:oak_boat"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Atleast it's not stuck on land"
         }
     },
     "requirements": [

@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I am the king now"
+        },
+        "description": {
+            "text": "Craft a golden helmet"
+        },
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "ghelm": {
             "trigger": "minecraft:inventory_changed",
@@ -10,21 +24,6 @@
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Craft a golden helmet"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:golden_helmet"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "I am the king now"
         }
     },
     "requirements": [

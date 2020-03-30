@@ -1,23 +1,22 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "criteria": {
-        "imp": {
-            "trigger": "minecraft:impossible"
-        }
-    },
     "display": {
-        "announce_to_chat": true,
+        "title": {
+            "text": "AFK boi"
+        },
         "description": {
             "text": "Play for 5000 mins"
         },
-        "frame": "goal",
-        "hidden": false,
         "icon": {
             "item": "minecraft:clock"
         },
+        "frame": "goal",
         "show_toast": true,
-        "title": {
-            "text": "AFK boi"
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
         }
     },
     "rewards": {

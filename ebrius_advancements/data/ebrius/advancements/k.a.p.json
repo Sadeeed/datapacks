@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Welcome to K.A.P"
+        },
+        "description": {
+            "text": "Kill a panda"
+        },
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "panda": {
             "trigger": "minecraft:player_killed_entity",
@@ -8,21 +22,6 @@
                     "type": "minecraft:panda"
                 }
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Kill a panda"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:bamboo"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Welcome to K.A.P"
         }
     },
     "requirements": [

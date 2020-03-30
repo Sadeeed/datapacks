@@ -1,5 +1,19 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dark Oak Sapply"
+        },
+        "description": {
+            "text": "Get a dark oak sapling"
+        },
+        "icon": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "sap": {
             "trigger": "minecraft:inventory_changed",
@@ -10,21 +24,6 @@
                     }
                 ]
             }
-        }
-    },
-    "display": {
-        "announce_to_chat": true,
-        "description": {
-            "text": "Get a dark oak sapling"
-        },
-        "frame": "task",
-        "hidden": false,
-        "icon": {
-            "item": "minecraft:dark_oak_sapling"
-        },
-        "show_toast": true,
-        "title": {
-            "text": "Dark Oak Sapply"
         }
     },
     "requirements": [
