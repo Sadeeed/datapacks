@@ -8,3 +8,4 @@ function ebrius:largest_emerald
 function ebrius:sancc
 function ebrius:buildr
 function ebrius:afkboi
+function ebrius:live_in_mines

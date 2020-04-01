@@ -7,7 +7,8 @@
             "text": "Kill a white sheep"
         },
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:MHF_Sheep}"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,7 +16,7 @@
         "hidden": false
     },
     "criteria": {
-        "sheep": {
+        "white": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -23,11 +24,191 @@
                     "nbt": "{Color:0b}"
                 }
             }
+        },
+        "orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:1b}"
+                }
+            }
+        },
+        "magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:2b}"
+                }
+            }
+        },
+        "light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:3b}"
+                }
+            }
+        },
+        "yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:4b}"
+                }
+            }
+        },
+        "lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:5b}"
+                }
+            }
+        },
+        "pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:6b}"
+                }
+            }
+        },
+        "gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:7b}"
+                }
+            }
+        },
+        "light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:8b}"
+                }
+            }
+        },
+        "cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:9b}"
+                }
+            }
+        },
+        "purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:10b}"
+                }
+            }
+        },
+        "blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:11b}"
+                }
+            }
+        },
+        "brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:12b}"
+                }
+            }
+        },
+        "green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:13b}"
+                }
+            }
+        },
+        "red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:14b}"
+                }
+            }
+        },
+        "black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:15b}"
+                }
+            }
         }
     },
     "requirements": [
         [
-            "sheep"
+            "white"
+        ],
+        [
+            "orange"
+        ],
+        [
+            "magenta"
+        ],
+        [
+            "light_blue"
+        ],
+        [
+            "yellow"
+        ],
+        [
+            "lime"
+        ],
+        [
+            "pink"
+        ],
+        [
+            "gray"
+        ],
+        [
+            "light_gray"
+        ],
+        [
+            "cyan"
+        ],
+        [
+            "purple"
+        ],
+        [
+            "blue"
+        ],
+        [
+            "brown"
+        ],
+        [
+            "green"
+        ],
+        [
+            "red"
+        ],
+        [
+            "black"
         ]
     ],
     "rewards": {

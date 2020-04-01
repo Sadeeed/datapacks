@@ -15,28 +15,12 @@
         "hidden": false
     },
     "criteria": {
-        "dore": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:diamond_ore",
-                        "count": {
-                            "min": 64,
-                            "max": 64
-                        }
-                    }
-                ]
-            }
+        "imp": {
+            "trigger": "minecraft:impossible"
         }
     },
-    "requirements": [
-        [
-            "dore"
-        ]
-    ],
     "rewards": {
-        "experience": 25
+        "experience": 30
     },
     "parent": "ebrius:root"
 }
