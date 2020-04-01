@@ -1,0 +1,1 @@
+tellraw @p {"text":"Uh oh... Hades will ban you for this","color":"red"}
