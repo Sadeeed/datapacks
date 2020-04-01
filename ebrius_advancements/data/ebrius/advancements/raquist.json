@@ -7,8 +7,7 @@
             "text": "Kill a white sheep"
         },
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:MHF_Sheep}"
+            "item": "minecraft:diamond_sword"
         },
         "frame": "task",
         "show_toast": true,
