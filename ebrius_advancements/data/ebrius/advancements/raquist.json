@@ -4,7 +4,7 @@
             "text": "We at Ebrius are not raquist"
         },
         "description": {
-            "text": "Kill a white sheep"
+            "text": "Kill all the races of sheep"
         },
         "icon": {
             "item": "minecraft:player_head",
@@ -212,7 +212,8 @@
         ]
     ],
     "rewards": {
-        "experience": 40
+        "experience": 40,
+        "function": "ebrius:adv"
     },
     "parent": "ebrius:root"
 }

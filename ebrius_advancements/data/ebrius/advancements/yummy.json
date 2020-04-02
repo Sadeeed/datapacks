@@ -36,7 +36,8 @@
         ]
     ],
     "rewards": {
-        "experience": 15
+        "experience": 15,
+        "function": "ebrius:adv"
     },
     "parent": "ebrius:root"
 }
