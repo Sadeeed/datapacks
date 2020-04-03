@@ -225,7 +225,7 @@
             "numz"
         ],
         [
-            "platt"
+            "platter"
         ],
         [
             "pratt"
@@ -246,5 +246,6 @@
     "rewards": {
         "experience": 60,
         "function": "ebrius:collect"
-    }
+    },
+    "parent": "ebrius:collectibles/root"
 }
