@@ -1,0 +1,250 @@
+{
+    "display": {
+        "title": {
+            "text": "Time to go outside"
+        },
+        "description": {
+            "text": "Collect every collectible item"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Trophy\\\"}\"},SkullOwner:{Id:\"6cf58794-e615-4422-b30f-d2301e348161\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM0YTU5MmE3OTM5N2E4ZGYzOTk3YzQzMDkxNjk0ZmMyZmI3NmM4ODNhNzZjY2U4OWYwMjI3ZTVjOWYxZGZlIn19fQ==\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "dave": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:poisonous_potato",
+                        "nbt": "{display:{Name:'{\"text\":\"Dave\\'s Potato\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"04\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "ed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{display:{Name:'{\"text\":\"Ed\\'s Bunny Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"13\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],SkullOwner:{Id:\"dacb90db-f547-4b25-b9fd-c2aefc0b07fa\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3N2EzMjY2YmYzYjllYWYxN2U1YTAyZWE1ZmJiNDY4MDExNTk4NjNkZDI4OGI5M2U2YzEyYzljYiJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "ex": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:porkchop",
+                        "nbt": "{display:{Name:'{\"text\":\"Excederus\\' Pork Chop\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"07\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "hades": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "nbt": "{display:{Name:'{\"text\":\"Hades\\' Hoe\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"01\",\"color\":\"gold\"}]']},HideFlags:63,RepairCost:100,Unbreakable:0b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                    }
+                ]
+            }
+        },
+        "jari": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "nbt": "{display:{Name:'{\"text\":\"Jari\\'s Build Team Cap\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"12\",\"color\":\"gold\",\"italic\":false}]'],color:16772608},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "jeff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{display:{Name:'{\"text\":\"Jeff\\'s Golden Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"00\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],SkullOwner:{Name:\"PrisonJoe\"}}"
+                    }
+                ]
+            }
+        },
+        "jomb": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beetroot_soup",
+                        "nbt": "{display:{Name:'{\"text\":\"Jomb\\'s Soup\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"02\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "lowry": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "nbt": "{display:{Name:'{\"text\":\"Lowry\\'s Groovy Disc\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"11\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "monk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar",
+                        "nbt": "{display:{Name:'{\"text\":\"Monk\\'s Contraband\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"09\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "numz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clock",
+                        "nbt": "{display:{Name:'{\"text\":\"Numz\\'s AFK Timer\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"14\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "platter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sunflower",
+                        "nbt": "{display:{Name:'{\"text\":\"Platter\\'s Sunflower\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"15\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "pratt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:water_bucket",
+                        "nbt": "{display:{Name:'{\"text\":\"Pratt\\'s Water Bucket\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"05\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "rock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{display:{Name:'{\"text\":\"Steve\\'s News\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"11\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],title:\"\",author:\"\"}"
+                    }
+                ]
+            }
+        },
+        "xoy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_sapling",
+                        "nbt": "{display:{Name:'{\"text\":\"Xoy\\'s Dark Oak Sapply\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"06\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "shadow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_ball",
+                        "nbt": "{display:{Name:'{\"text\":\"Shadow\\'s Slimeball\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"08\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        },
+        "thana": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit_foot",
+                        "nbt": "{display:{Name:'{\"text\":\"InThana\\'s Toe\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"03\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dave"
+        ],
+        [
+            "ed"
+        ],
+        [
+            "ex"
+        ],
+        [
+            "hades"
+        ],
+        [
+            "jari"
+        ],
+        [
+            "jeff"
+        ],
+        [
+            "jomb"
+        ],
+        [
+            "lowry"
+        ],
+        [
+            "monk"
+        ],
+        [
+            "numz"
+        ],
+        [
+            "platt"
+        ],
+        [
+            "pratt"
+        ],
+        [
+            "rock"
+        ],
+        [
+            "xoy"
+        ],
+        [
+            "shadow"
+        ],
+        [
+            "thana"
+        ]
+    ],
+    "rewards": {
+        "experience": 60,
+        "function": "ebrius:collect"
+    }
+}
