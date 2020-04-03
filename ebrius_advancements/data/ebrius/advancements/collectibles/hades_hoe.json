@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Hades Hoe"
+            "text": "Collectible No. 01"
         },
         "description": {
-            "text": "Collectable No. 01"
+            "text": "Hades Hoe"
         },
         "icon": {
             "item": "minecraft:diamond_hoe",
