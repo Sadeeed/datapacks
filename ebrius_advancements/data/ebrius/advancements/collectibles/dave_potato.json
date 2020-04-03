@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Dave's Potato"
+        },
+        "description": {
+            "text": "Collectable No. 04"
+        },
+        "icon": {
+            "item": "minecraft:poisonous_potato",
+            "nbt": "{display:{Name:'{\"text\":\"Dave\\'s Potato\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"04\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:poisonous_potato",
+                        "nbt": "{display:{Name:'{\"text\":\"Dave\\'s Potato\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"04\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inv"
+        ]
+    ],
+    "rewards": {
+        "experience": 30,
+        "function": "ebrius:collect"
+    },
+    "parent": "ebrius:collectibles/root"
+}

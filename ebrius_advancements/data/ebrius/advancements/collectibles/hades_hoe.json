@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Hades Hoe"
+        },
+        "description": {
+            "text": "Collectable No. 01"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{display:{Name:'{\"text\":\"Hades\\' Hoe\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"01\",\"color\":\"gold\"}]']},HideFlags:63,RepairCost:100,Unbreakable:0b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe",
+                        "nbt": "{display:{Name:'{\"text\":\"Hades\\' Hoe\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"01\",\"color\":\"gold\"}]']},HideFlags:63,RepairCost:100,Unbreakable:0b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inv"
+        ]
+    ],
+    "rewards": {
+        "experience": 30,
+        "function": "ebrius:collect"
+    },
+    "parent": "ebrius:collectibles/root"
+}

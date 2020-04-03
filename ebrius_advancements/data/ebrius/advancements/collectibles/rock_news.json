@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Steve's News"
+        },
+        "description": {
+            "text": "Collectable No. 10"
+        },
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{display:{Name:'{\"text\":\"Steve\\'s News\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"11\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],title:\"\",author:\"\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book",
+                        "nbt": "{display:{Name:'{\"text\":\"Steve\\'s News\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"11\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],title:\"\",author:\"\"}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inv"
+        ]
+    ],
+    "rewards": {
+        "experience": 30,
+        "function": "ebrius:collect"
+    },
+    "parent": "ebrius:collectibles/root"
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Ed's Bunny Head"
+        },
+        "description": {
+            "text": "Collectable No. 13"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Ed\\'s Bunny Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"13\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],SkullOwner:{Id:\"dacb90db-f547-4b25-b9fd-c2aefc0b07fa\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3N2EzMjY2YmYzYjllYWYxN2U1YTAyZWE1ZmJiNDY4MDExNTk4NjNkZDI4OGI5M2U2YzEyYzljYiJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{display:{Name:'{\"text\":\"Ed\\'s Bunny Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"13\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],SkullOwner:{Id:\"dacb90db-f547-4b25-b9fd-c2aefc0b07fa\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3N2EzMjY2YmYzYjllYWYxN2U1YTAyZWE1ZmJiNDY4MDExNTk4NjNkZDI4OGI5M2U2YzEyYzljYiJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inv"
+        ]
+    ],
+    "rewards": {
+        "experience": 30,
+        "function": "ebrius:collect"
+    },
+    "parent": "ebrius:collectibles/root"
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Jomb's Soup"
+        },
+        "description": {
+            "text": "Collectable No. 02"
+        },
+        "icon": {
+            "item": "minecraft:beetroot_soup",
+            "nbt": "{display:{Name:'{\"text\":\"Jomb\\'s Soup\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"02\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beetroot_soup",
+                        "nbt": "{display:{Name:'{\"text\":\"Jomb\\'s Soup\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"02\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inv"
+        ]
+    ],
+    "rewards": {
+        "experience": 30,
+        "function": "ebrius:collect"
+    },
+    "parent": "ebrius:collectibles/root"
+}

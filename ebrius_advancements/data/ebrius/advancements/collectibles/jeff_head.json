@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Jeff's Golden Head"
+        },
+        "description": {
+            "text": "Collectable No. 00"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Jeff\\'s Golden Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"00\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],SkullOwner:{Name:\"PrisonJoe\"}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{display:{Name:'{\"text\":\"Jeff\\'s Golden Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Collectors Item\",\"color\":\"dark_aqua\",\"italic\":false}','[{\"text\":\"No. \",\"color\":\"aqua\",\"italic\":false},{\"text\":\"00\",\"color\":\"gold\",\"italic\":false}]']},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],SkullOwner:{Name:\"PrisonJoe\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "inv"
+        ]
+    ],
+    "rewards": {
+        "experience": 30,
+        "function": "ebrius:collect"
+    },
+    "parent": "ebrius:collectibles/root"
+}
