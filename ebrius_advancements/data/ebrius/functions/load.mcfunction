@@ -10,5 +10,5 @@ scoreboard objectives add eb_ded deathCount
 scoreboard objectives add eb_trade minecraft.custom:minecraft.traded_with_villager 
 scoreboard objectives add eb_time minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add eb_dmined minecraft.mined:minecraft.diamond_ore
-scoreboard objectives add eb_advancement 
-scoreboard objectives add eb_collect_tot
+scoreboard objectives add eb_advancement dummy
+scoreboard objectives add eb_collect_tot dummy
