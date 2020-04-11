@@ -23,3 +23,5 @@ scoreboard players set #randval 0
 #seed the generator, or just keep the last value in #random if already seeded
 execute store result score #seeded mcprng run scoreboard players get #random mcprng
 execute if score #seeded mcprng matches 0 run function minez:seed
+#thirst timer
+scoreboard objectives add eb_time minecraft.custom:minecraft.play_one_minute

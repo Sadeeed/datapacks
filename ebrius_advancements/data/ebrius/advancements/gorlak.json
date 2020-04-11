@@ -20,7 +20,7 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:villager",
-                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}"
+                    "nbt": "{CustomName: '{\"text\":\"Gorlak\"}'}"
                 }
             }
         },
@@ -29,7 +29,7 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:villager",
-                    "nbt": "{CustomName:\"\\\"Gorlak\\\"\"}"
+                    "nbt": "{CustomName: '{\"text\":\"gorlak\"}'}"
                 }
             }
         }
