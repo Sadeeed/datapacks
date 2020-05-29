@@ -71,6 +71,20 @@
                 ]
             }
         },
+        "darkoak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_log",
+                        "count": {
+                            "min": 64,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        },
         "accacia": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -98,6 +112,9 @@
         ],
         [
             "jungle"
+        ],
+        [
+            "darkoak"
         ],
         [
             "accacia"

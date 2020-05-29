@@ -55,6 +55,16 @@
                 ]
             }
         },
+        "darkoak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_boat"
+                    }
+                ]
+            }
+        },
         "accacia": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -78,6 +88,9 @@
         ],
         [
             "jungle"
+        ],
+        [
+            "darkoak"
         ],
         [
             "accacia"
