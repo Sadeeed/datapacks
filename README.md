@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://i.imgur.com/ZUawPst.png" alt="Project logo"></a>
+ <img src="https://i.imgur.com/lszjaRQ.png" alt="Project logo"></a>
 </p>
 <h3 align="center">Datapacks</h3>
 
@@ -25,11 +25,13 @@
 A collection of Minecraft datapacks made by me.
 
 #### [Ebrius Thunder](https://github.com/Sadeeed/datapacks/tree/master/ebriusthunder)  
-A random (1 / 1000) chance of a thunderstorm every noon (useful for multiplayer servers)
-uses prng functions from [mcskware](https://github.com/mcskware/prng)
+Spawns a thunderstorm with 1/1000 chance every noon (useful for multiplayer servers) uses prng functions from [mcskware](https://github.com/mcskware/prng)
 
 #### [MineZ](https://github.com/Sadeeed/datapacks/tree/master/minez)
 An implementation of the old MineZ mingame (WIP).
+
+#### [Ebrius Advancements](https://github.com/Sadeeed/datapacks/tree/master/ebrius_advancements)
+Custom advancements pack for the ebrius server.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
