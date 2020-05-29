@@ -45,12 +45,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 + Download a copy of this repo [here](https://github.com/Sadeeed/datapacks/archive/master.zip) or clone the repo using the Colne or Download Button.
 
-+ Extract the .zip archive
++ Extract the .zip archive and copy the desired datapacks
 
 + Open Minecraft.
+
 + Select the world you want to install the data pack for, click on "Edit", then "Open world folder".
+
 + Open the folder named datapacks, and put the data pack into it.
+
 + Type /reload (if you have enabled cheats) or press F3+T if you are in the world during the installation.
+
 + If the data pack has a correct format, it would be enabled in the world.
 
 ## Usage <a name = "usage"></a>
